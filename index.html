@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Beauty Bliss</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #fff0f5;
+      color: #333;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background-color: #ffe6eb;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .left-buttons {
+      display: flex;
+      gap: 15px;
+    }
+    .left-buttons a {
+      text-decoration: none;
+      color: #fff;
+      background-color: #ff69b4;
+      padding: 10px 20px;
+      border-radius: 20px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .left-buttons a:hover {
+      background-color: #ff1493;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      margin-left: 30px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    .hero {
+      text-align: center;
+      margin-top: 50px;
+    }
+    .hero h1 {
+      font-size: 48px;
+      color: #ff69b4;
+      margin-bottom: 10px;
+    }
+    .products {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin: 50px 20px;
+    }
+    .product {
+      background: white;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+      width: 250px;
+    }
+    .product img {
+      width: 100%;
+      border-radius: 20px;
+    }
+    .product h3 {
+      margin: 15px 0 10px;
+    }
+    .product button {
+      background: #ff69b4;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .product button:hover {
+      background: #ff1493;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="order.html">Cart</a>
+  </nav>
+  <div class="left-buttons">
+    <a href="login.html">Login</a>
+    <a>Sign Up</a>
+  </div>
+</header>
+
+<section class="hero">
+  <h1>Find Your Perfect Look 💄</h1>
+</section>
+
+<section class="products">
+  <div class="product">
+    <img src="./luxury-lipstick.jpg" alt="Lipstick">
+    <h3>Luxury Lipstick</h3>
+    <button>Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <img src="./silk-foundation.jpg" alt="Foundation">
+    <h3>Silk Foundation</h3>
+    <button>Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <img src="./rosy-blush.jpg" alt="Blush">
+    <h3>Rosy Blush</h3>
+    <button>Add to Cart</button>
+  </div>
+</section>
+
+</body>
+</html>
